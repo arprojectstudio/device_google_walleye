@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-gpt_utils_common_cflags := -Wall -Werror -Wno-unused-variable
+gpt_utils_common_cflags := -Wall -Werror
 
 include $(CLEAR_VARS)
 LOCAL_C_INCLUDES := system/core/libsparse
