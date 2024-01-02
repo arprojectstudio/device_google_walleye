@@ -36,7 +36,7 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Inherit device configuration
-$(call inherit-product, device/google/walleye/device-walleye.mk)
+$(call inherit-product, device/google/walleye/device.mk)
 $(call inherit-product, vendor/google/walleye/walleye-vendor.mk)
 $(call inherit-product-if-exists, vendor/google_devices/walleye/proprietary/device-vendor-walleye.mk)
 
