@@ -43,6 +43,9 @@ TARGET_RECOVERY_UI_LIB := \
     librecovery_ui_walleye \
     libfstab
 
+# Kernel
+TARGET_KERNEL_CONFIG := eucalyptus_walleye_defconfig
+
 # Board uses A/B OTA.
 AB_OTA_UPDATER := true
 
